@@ -1,0 +1,183 @@
+[33mefc64c8a33[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32madmin-views-subtest-clean[m[33m)[m Improve test diagnostics using subTest() in admin views
+[33mb415cef5d2[m[33m ([m[1;31mupstream/main[m[33m, [m[1;32mmain[m[33m)[m Fixed #36946 -- Respected test database name when running tests in parallel on SQLite.
+[33me4372f1b5c[m Refs #35972 -- Returned params in a tuple in further expressions.
+[33m97cab5fe65[m Refs #23919 -- Used yield from in Paginator.
+[33ma040f55506[m Fixed #27489 -- Renamed permissions upon model renaming in migrations.
+[33m187a789f99[m Fixed #34643 -- Moved inputs beneath labels and errors in admin forms.
+[33md4ab33af06[m Fixed #22079 -- Added tests for stripping empty list values in RequestFactory.
+[33m1f2a56567c[m Adjusted default DoS severity level in Security Policy.
+[33m71d1e92e11[m Refs #36936 - Adjusted tests to set PYTHON_COLORS environment variable.
+[33me6108b7388[m Fixed #36750 -- Made ordering of M2M objects deterministic in serializers.
+[33mf991a18838[m Refs #36652, #36936 -- Improved path manipulation in a migration test launching a subprocess.
+[33ma91e03d7c3[m Refs #36879, #36936 -- Fixed typo in RedisCacheTests.test_client_driver_info.
+[33m4aefc9ea51[m Fixed #36848 -- Mentioned BadRequest exception in docs/ref/views.txt.
+[33m497d9cdc67[m Fixed #36951 -- Removed empty exc_info from log_task_finished signal handler.
+[33mbbc6818bc1[m Fixed #36944 -- Removed MAX_LENGTH_HTML and related 5M chars limit references from HTML truncation docs.
+[33m07d6fa5a95[m Fixed #36948 -- Fixed breadcrumb text overlap at small widths in admin.
+[33m169152f8f5[m Fixed #36839 -- Warned when model renames encounter conflicts from stale ContentTypes.
+[33m69d47f9219[m Refs #36873 -- Fixed changelink background image Y position.
+[33m9482a4116c[m Fixed #36873 -- Aligned and normalized stroke width for non-multiple select icons in related-widget-wrapper.
+[33me84dc8715e[m Fixed #36931 -- Handled LookupError in multipart parser for invalid RFC 2231 encoding.
+[33macd0bec513[m Added stub release notes and release date for 6.0.3, 5.2.12, and 4.2.29.
+[33m2de474dffc[m Delete leaking loop iter vars in `smartif.py`
+[33m9a8461f922[m Fixed a typo in tests/admin_views/tests.py.
+[33m158fd81ef5[m Fixed #36899 -- Implemented SessionBase.__bool__.
+[33me85db77e11[m Fixed #36937 -- Added missing positive permission cases in test_client tests.
+[33mf45bfa5e28[m Fixed #36935 -- Added fallback in ContentType.app_labeled_name when model_class() is None.
+[33m04613791af[m Fixed a typo in tests/i18n/tests.py.
+[33m8d251b512b[m Fixed #36920 -- Fixed alignment of fieldset legends in wide admin forms.
+[33mcb24bebfab[m Refs #36938 -- Marked a test for union of ordered querysets as an expected failure on Oracle.
+[33m283ea9e9e0[m Fixed #36127 -- Applied default empty display value to links otherwise containing only whitespace in admin.
+[33m96984b9b0f[m Refs #36934, #35972 -- Forwardported release note for tolerating sequences in BuiltinLookup.as_sql().
+[33m4139cb8d35[m Fixed #36929 -- Dropped support for GEOS 3.9.
+[33m4513a6c2a9[m Refs #19221 -- Fixed outdated KEY_FUNCTION definition in docs/ref/settings.txt.
+[33mfb3a11071a[m Fixed #36918 -- Removed double spaces and fixed minor grammar issues in docs.
+[33m08b4dfc573[m Fixed #36857 -- Added QuerySet.totally_ordered property.
+[33m3dea5fed07[m Fixed #36513 -- Improved text contrast for admin M2M multi-select widget.
+[33mf6384479ad[m Installed libmemcached-dev in screenshots workflow.
+[33mfee2cb2d6d[m Refs #36620 -- Removed stray + from coverage comment workflow step.
+[33m8d2a925a0e[m Added tests for QuerySet.union() across different models and value aliases.
+[33m055d7a682f[m Improved error message in SQLite `DatabaseOperations.check_expression_support()`.
+[33m0dd9d5ee5c[m Optimized SQLite `DatabaseOperations.check_expression_support()`.
+[33ma7544eb3e0[m Added extra pattern lookup escaping cases in tests/expressions/tests.py.
+[33m380d77ccce[m Fixed #36921 -- Fixed KeyError in inline form for model not registered with admin.
+[33m97228a86d2[m Refs #35809 -- Fixed test_selectbox_selected_rows() on macOS.
+[33m92d4aea5ff[m Refs #36620 -- Shortened coverage diff comment.
+[33mc507aaf9ab[m Refs #36620 -- Guarded coverage tests workflow behind a label.
+[33mbb7f4f8a73[m Relaxed a query ordering assertion in filtered_relation test.
+[33m7732f942a9[m Fixed #36841 -- Made multipart parser class pluggable on HttpRequest.
+[33m56ed37e17e[m Fixed #36903 -- Fixed further NameErrors when inspecting functions with deferred annotations.
+[33m2c2d36376a[m Added stub release notes for 5.2.12.
+[33m3282d9f4ed[m Fixed #36890 -- Supported StringAgg(distinct=True) on SQLite with the default delimiter.
+[33m977345f70d[m Fixed #36854 -- Updated GEOS init and finish bindings.
+[33m220db1c78a[m Refs #35961 -- Restored AUTHORS in wheel.
+[33mef46215fde[m Added various missing test skips observed on MongoDB.
+[33md007fcf729[m Modified tests to format PKs with %s rather than %d.
+[33m64a4d8ad00[m Fixed #34352 -- Unified terms in Signals docs.
+[33m0dac3dd4a1[m Clarified optional nature of Contributor License Agreement.
+[33m3c09ed81d3[m Refs #35444 -- Doc'd deprecation in contrib.postgres.aggreggates.StringAgg.delimiter.
+[33m226ca7b5ce[m Added DatabaseFeatures.supports_inspectdb.
+[33m7cf1c22d4d[m Refs #36644 -- Documented no pk ordering in first()/last() after empty order_by().
+[33m0deedbd557[m Fixed #36908 -- Removed unnecessary "fail_silently" param from quick example in docs/topics/email.txt.
+[33mec2ccff9a5[m Refs #36036 -- Added note about z argument in GEOSCoordSeq.__init__().
+[33m218077d944[m Refs #36036 -- Added m dimension to GEOSCoordSeq.
+[33m7c54fee776[m Fixed #36246 -- Caught GDALException in BaseGeometryWidget.deserialize.
+[33m6380e3f01e[m Fixed #36644 -- Enabled empty order_by() to avoid pk ordering by first()/last().
+[33m087bb9e8f3[m Refs #36644 -- Applied default ordering after union().
+[33m6c2436fa86[m Fixed #36272 -- Removed obsolete libgeoip from GeoDjango installation docs.
+[33m6f8b2d1c6d[m Refs #33579 -- Added extra tests for NotUpdated exception.
+[33m13299a6203[m Fixed #36898 -- Documented SessionBase.is_empty().
+[33maf361d3be4[m Added CVE-2025-13473, CVE-2025-14550, CVE-2026-1207, CVE-2026-1285, CVE-2026-1287, and CVE-2026-1312 to security archive.
+[33me7e43f1f91[m Added stub release notes for 6.0.3.
+[33m005d60d97c[m Refs CVE-2026-1312 -- Raised ValueError when FilteredRelation aliases contain periods.
+[33m69065ca869[m Fixed CVE-2026-1312 -- Protected order_by() from SQL injection via aliases with periods.
+[33me891a84c7e[m Fixed CVE-2026-1287 -- Protected against SQL injection in column aliases via control characters.
+[33ma33540b3e2[m Fixed CVE-2026-1285 -- Mitigated potential DoS in django.utils.text.Truncator for HTML input.
+[33m81aa529296[m Fixed CVE-2026-1207 -- Prevented SQL injections in RasterField lookups via band index.
+[33meb22e1d6d6[m Fixed CVE-2025-14550 -- Optimized repeated header parsing in ASGI requests.
+[33m3eb814e02a[m Fixed CVE-2025-13473 -- Standardized timing of check_password() in mod_wsgi auth handler.
+[33m72ae25a9c2[m Fixed #36879 -- Identified Django client in Redis client metadata.
+[33m24a14860ce[m Fixed line length in admin_views test_prepopulated_fields().
+[33m1d4c52c8bf[m Fixed #36893 -- Serialized elidable kwarg for RunSQL and RunPython operations.
+[33m5798f4bb17[m Fixed selenium tests in Firefox.
+[33md725f6856d[m Refs #36788 -- Added missing CSS selector for fieldsets in the admin.
+[33mb665a67d61[m Fixed #36788 -- Fixed horizontal form field alignment under <fieldset> in the admin.
+[33m986f7f2098[m Added missing quotes around nonce in docs/ref/csp.txt.
+[33m674eda1c03[m Refs #36865 -- Fixed test_exact_lookup_validates_each_field_independently() crash on databases that don't support primitives in JSONFields.
+[33mbb8c14b466[m Added supports_expression_indexes skip to nulls_distinct test.
+[33m4a52533329[m Refs #34118 -- Removed asgiref coroutine detection shims.
+[33m93dfb16e96[m Added documentation on reviewing patches.
+[33mcbc4c9f11f[m Fixed typos in docs/ref/models/querysets.txt.
+[33m08a0b92329[m Fixed #36468 -- Fixed failure to close popup when adding a related object in the admin.
+[33m4cecf30395[m Fixed #36865 -- Removed casting from exact lookups in admin searches.
+[33mb25bc24418[m Refs #36865 -- Added test for invalid value handling in admin changelist.
+[33mf87c2055b4[m Fixed spell checking in docs GitHub Actions workflow.
+[33m117ff1d37d[m Made explicit that aspell is a requirement to run spell checks on docs.
+[33mba96379011[m Fixed docs spelling errors accumulated over time.
+[33mfe189dc43a[m Fixed #36847 -- Ensured auto_now_add fields are set on pre_save().
+[33m2831eaed79[m Fixed #36233 -- Avoided quantizing integers stored in DecimalField on SQLite.
+[33me61a54d306[m Doc'd the minimum version of bash for releasing Django.
+[33m83622b824b[m Fixed #36878 -- Unified data type for *_together options in ModelState.
+[33m5d5f95da40[m Refs #35744 -- Removed problematic __in lookup in test_intersection_in_nested_subquery.
+[33mb30e09a942[m Added stub release notes and release date for 6.0.2, 5.2.11, and 4.2.28.
+[33m2e83eb5e78[m Fixed #36776 -- Clarified dev server runs in WSGI mode.
+[33m229d026207[m Fixed #36883 -- Split monolithic aggregation regression tests.
+[33me92d1e3b78[m Fixed #36850 -- Prevented admin filter sidebar from wrapping below the changelist.
+[33mc3c9f1908e[m Fixed #36812 -- Dropped support for MariaDB < 10.11.
+[33m68d110f1fe[m Refs #33735 -- Coped with stacklevel change in ASGITest.test_file_response().
+[33m2351c1b12c[m Refs #36620 -- Ran coverage tests workflow on forks.
+[33mb1ffa9a9d7[m Fixed #13883 -- Rendered named choice groups with <optgroup> in FilteredSelectMultiple.
+[33m3851601b2e[m Refs #36382 -- Fixed GDAL_VERSION comparison in gdal_tests.
+[33me083c62f51[m Fixed #36030 -- Fixed precision loss in division of Decimal literals on SQLite.
+[33me5cbb8b4be[m Fixed #36639 -- Added CI step to run makemigrations --check against test models.
+[33m748c2ba837[m Refs #36639 -- Updated test migrations to match models.
+[33m59fcd2a199[m Fixed #36869 -- Optimized MigrationGraph._generate_plan membership checks.
+[33md6cca8b904[m Refs #25508 -- Updated outdated QuerySet.__repr__() results.
+[33m2541641347[m Fixed unbalanced parentheses in docs.
+[33m899eee3883[m Ignored 6cff02078799b7c683a0d39630d49ab4fe532e7c formatting changes in git blame.
+[33m6cff020787[m Applied Black's 2026 stable style.
+[33m0d31ca9883[m Refs #36382 -- Updated GDAL tests for Memory driver deprecation in GDAL 3.11.
+[33m0239e86f38[m Fixed #36352 -- Improved error message for fields excluded by prior values()/values_list() calls.
+[33ma77e541d1d[m Fixed #36801 -- Avoided unnecessary calculation in construct_change_message().
+[33m211b631427[m Fixed #36822 -- Added parameter limit for PostgreSQL with server-side binding.
+[33mb98075dc62[m Refs #36822 -- Hoisted bulk_batch_size() implementations to base backend.
+[33m07a1640745[m Fixed #36856 -- Mentioned needsnewfeatureprocess resolution in contributor docs.
+[33ma876ada18b[m Bumped linter versions in requirements files and tox.ini.
+[33m924156072e[m Fixed #36855, Refs #27222 -- Mentioned multiple invocations of Field.pre_save() in 6.0 release notes.
+[33m4ce4ed72a4[m Fixed #36821 -- Treated empty strings as NULL for iexact lookups on Oracle.
+[33m6a596373d4[m Fixed #35402 -- Fixed crash in DatabaseFeatures.django_test_skips when running a subset of tests.
+[33m040bb3eba7[m Fixed #35442 -- Prevented N+1 queries in RelatedManager with only().
+[33m73c5e94521[m Refs #36769 -- Raised SuspiciousOperation for unexpected nested tags in XML Deserializer.
+[33ma25158f5cc[m Refs #36769 -- Avoided visiting grandchild nodes in XML Deserializer.
+[33m1a70889d58[m Refs #36769 -- Corrected invalid XML fixtures.
+[33m2b192bff26[m Fixed #36858 -- Optimized `Field._get_default()` for `db_default` case.
+[33m21ceaf2fd7[m Fixed #36708 -- Initialized formset to None in ChangeList.__init__().
+[33m64ac4385c7[m Bumped linter dependencies.
+[33meeea8d2cba[m Fixed #36804 -- Fixed admin system check crash for missing models.
+[33md61838761f[m Fixed #36827 -- Added support for exclusion constraints using Hash indexes on PostgreSQL.
+[33m8a0315fab7[m Refs #35875 -- Added dark mode support in additional views.
+[33m1d15c732bb[m Refs #35381 -- Added missing deprecation note for using None as RHS of JSONExact.
+[33m0a983330cd[m Fixed #36853 -- Fixed technical 500 and 404 email CSS support.
+[33m9247410b4b[m Fixed #36815 -- Optimized insertion of db_default fields in bulk_create().
+[33mf3b982f21f[m Fixed a typo in docs/ref/forms/models.txt.
+[33m459a3d17b9[m Fixed #36852 -- Ignored index_type case in ExclusionConstraint equality check.
+[33m091ffc4e5e[m Fixed #36844 -- Clarified need for reusable apps to set default_auto_field in packaging tutorial and AppConfig docs.
+[33m2be860d6cf[m Clarified regression nature of data loss bug in docs/releases/6.0.1.txt and 5.2.10.txt.
+[33m8703fbdf10[m Added guidance on AI-assisted code submission to contributing docs.
+[33m4f580c4659[m Extended GitHub pull request template to require AI assistance disclosure.
+[33m1717332ca2[m Relocated content from docs/topics/external-packages.txt where appropriate.
+[33mfd5def6367[m Dropped unnecessary usage of "seealso" in BoundField docs.
+[33mb1bb6af321[m Refs #23395 -- Ignored line-length formatting changes in git blame.
+[33m7c1b3391d3[m Improved types in django.tasks.base dataclasses.
+[33mc08ed084f9[m Made release test script use a random available port.
+[33mc68e4adea0[m Fixed #29257 -- Caught DatabaseError when attempting to close a possibly already-closed cursor.
+[33mb59c215eab[m Added stub release notes for 6.0.2.
+[33me937be3c1d[m Added stub release notes for 5.2.11.
+[33m496af73bf6[m Added release date for 6.0.1.
+[33mf6fd35fc6d[m Added release date for 5.2.10.
+[33m030c63d329[m Fixed #36843, #36793 -- Reverted "Fixed #27489 -- Renamed permissions upon model renaming in migrations."
+[33m3201a895cb[m Added DatabaseCreation.destroy_test_db_connection_close_method hook.
+[33md6ae2ed868[m Refs #33647 -- Fixed silent data truncation in bulk_create on Postgres.
+[33m79ab0993d0[m Fixed #36829 -- Reverted value of ClearableFileInput.use_fieldset to True.
+[33mc496a7df64[m Refs #21961 -- Added supports_on_delete_db_cascade skips in schema tests.
+[33mccf74f7dc7[m Bumped checkout version in Github actions configuration.
+[33mcc0f6c4f74[m Fixed #36714 -- Fixed context sharing among async signal handlers.
+[33m1c34b8716a[m Refs #24920 -- Made DecimalField system checks database dependent.
+[33m4afe463950[m Added some skips to GIS tests.
+[33mda19b3897d[m Fixed #36112 -- Added fallback in last_executed_query() on Oracle and PostgreSQL.
+[33m6c2780ffe1[m Refs #30515 -- Added tests for resolve_url() with view callables and arguments.
+[33m626c15dba0[m Fixed #30515 -- Documented resolve_url() in docs/topics/http/shortcuts.txt.
+[33m7bf3ac3ee2[m Fixed #36796 -- Handled lazy routes correctly in RoutePattern.match().
+[33m8e4b531111[m Fixed #36810 -- Avoided infinite recursion in SimpleLazyObject.__repr__().
+[33m165c359996[m Refs #36810 -- Avoided infinite recursion in LazyNonce.__repr__().
+[33m3923ebac28[m Refs #36787 -- Fixed lookup test crash on Oracle.
+[33m68859a9b45[m Added missing sentence period in docs/intro/tutorial02.txt.
+[33m1eac2659a1[m Fixed #36807 -- Fixed form field alignment under <fieldset> in the admin.
+[33m968f3f9637[m Refs #36806 -- Removed unnecessary null=True from GeneratedField in test models.
+[33m84bae9c22a[m Fixed #36818 -- Ensured SQLite connection before accessing max_query_params.
+[33m0def695e3c[m Refs #27100 -- Removed obsolete message from tutorial and migrations topic.
+[33mbddcefb00f[m Fixed #36305 -- Added documentation indentation guidelines to contributing docs.
+[33mcc8ee496a5[m Refs #36305 -- Fixed indentation in checks and middleware documentation.
+[33m163d92c1d6[m Fixed #36787 -- Fixed crash in In lookups with mixed expressions and strings.
+[33m95394443bf[m Fixed #36786 -- Fixed XML serialization of None values in natural keys.
+[33m6ee8e9d56c[m Fixed #36508 -- Interpreted __iexact=None on KeyTransforms as __exact=None.
